@@ -1,0 +1,21 @@
+
+#include <fstream>
+#include <iostream>
+#include <vector>
+
+// Boost libraries
+#include <boost/array.hpp>
+#include <boost/numeric/ublas/vector.hpp>
+#include "Node.h"
+
+class Solid{
+ public:
+    //função para Leitura dos dados
+    void dataReading(const std::string& inputFile, const std::string& mirror);
+    std::vector<Node *>          nodes_;
+
+ private:
+    std::string inputFile; 				 //Fluid input file
+    int numNodes;						 //Number of nodes
+    int numElem;      			     //Number of elements 
+};

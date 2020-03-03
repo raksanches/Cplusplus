@@ -1,0 +1,8 @@
+Número de nós
+3
+Número de Elementos
+1
+Coordenadas
+0. 0. 0.
+1. 0. 0.
+0. 1. 0.
