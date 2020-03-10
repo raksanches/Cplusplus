@@ -1,0 +1,10 @@
+Number of nodes
+3
+Number of elements
+1
+Nodes Coordinates
+0 0 0
+1 0 0
+0 1 0
+Element Conectivity
+1 2 3

@@ -1,6 +1,7 @@
 //static char help[] = "Programa para elasticidade bidimensional";
 #include <fstream> 
 #include "src/Solid.h"
+
 int main(int argc, char **args)
 {
 
@@ -10,6 +11,9 @@ int main(int argc, char **args)
     problem.dataReading("entrada.txt", "espelho.txt");
 
     problem.printNodes();
+
+    problem.printConectivity();
+
 	// Starts main program invoking PETSc
     //    PetscInitialize(&argc, &args, (char*)0, help);
 

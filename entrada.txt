@@ -1,8 +1,10 @@
-Número de nós
+Nï¿½mero de nï¿½s
 3
-Número de Elementos
+Nï¿½mero de Elementos
 1
 Coordenadas
 0. 0. 0.
 1. 0. 0.
 0. 1. 0.
+Conectividade
+1 2 3
